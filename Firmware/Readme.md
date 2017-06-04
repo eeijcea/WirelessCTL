@@ -65,6 +65,8 @@ xhr.send(data);
 </ul>
 
 <pre>
+In this example TimeStamp = 29/05/2017 22:12
+
 var data = "TimeStamp=29%2F05%2F2017%2022%3A12&Command=GetLightState";
 
 var xhr = new XMLHttpRequest();
