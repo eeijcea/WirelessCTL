@@ -41,7 +41,7 @@ The following HTTP services are implemented: <br>
 <li>SystemID</li>
 </ul>
 
-<quote>
+<pre>
 In this example TimeStamp = 23/11/2016 15:42
 
 var data = "TimeStamp=23%2F11%2F2016%2015%3A42&SSID=mySSID&Passwd=myPasswd&SystemID=mySystemID";
@@ -59,7 +59,7 @@ xhr.open("GET", "http://192.168.1.18/SaveCredentials?SystemID=mySystemID&Passwd=
 xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
 
 xhr.send(data);
-</quote>
+</pre>
 
 <b>/GetLightState</b><br>
 <ul>
