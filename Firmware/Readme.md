@@ -30,7 +30,7 @@ The following HTTP services are implemented:
 
 <h3>XMLHTTPRequest (JavaScript) Code Samples:</h3><br>
 
-/SaveCredentials<br>
+<b>/SaveCredentials</b><br>
 <ul>
 <li>TimeStamp</li>
 <li>SSID</li>
@@ -58,4 +58,27 @@ xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
 xhr.send(data);
 </pre>
 
+<b>/GetLightState</b><br>
+<ul>
+<li>TimeStamp</li>
+<li>Command=GetLightState</li>
+</ul>
+
+<pre>
+var data = "TimeStamp=29%2F05%2F2017%2022%3A12&Command=GetLightState";
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === this.DONE) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("POST", "http://192.168.1.18/GetLightState");
+xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
+
+xhr.send(data);
+</pre>
 
