@@ -57,7 +57,7 @@ xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
 xhr.send(data);
 </pre>
 
-<b>/GetLightState</b><br>
+<h3><b>/GetLightState</b></h3>
 <p>This service allows you to retrieve current NodeMCU output pin status (the one used for set On/Off). Be aware that currently firmware is memoryless, this basically means even if last command submitted was Power ON if a reset happens in the middle system will not reflect this.</p>
 <p>Input Parameters:</p>
 <ul>
@@ -69,10 +69,8 @@ xhr.send(data);
 In this example TimeStamp = 29/05/2017 22:12
 
 var data = "TimeStamp=29%2F05%2F2017%2022%3A12&Command=GetLightState";
-
 var xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
-
 xhr.addEventListener("readystatechange", function () {
   if (this.readyState === this.DONE) {
     console.log(this.responseText);
@@ -81,7 +79,6 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("POST", "http://192.168.1.18/GetLightState");
 xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
-
 xhr.send(data);
 </pre>
 
