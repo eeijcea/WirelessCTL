@@ -5,7 +5,7 @@ Serial Speed: 115200
 
 
 <h2>CLI Services Implemented:</h2>     
-Accesible via Serial NodeMCU (usb) from Arduino IDE
+Accesible via Serial NodeMCU (usb) from Arduino IDE<br>
 SHOW_DEVICEID:          //  SHOW DEVICEID<br>
 SHOW_HISTORY:           //  SHOW REQUESTS HISTORY<br>
 SHOW_CREDENTIALS:       //  SHOW WIFI CREDENTIALS (IF SET)<br>
