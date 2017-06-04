@@ -32,6 +32,7 @@ The following HTTP services are implemented: <br>
 <h3>XMLHTTPRequest (JavaScript) Code Samples:</h3><br>
 
 <b>/SaveCredentials</b><br>
+<p>This service allows you to save to NodeMCU your Wifi Credentials (SSID and Password), it also allows us you to save a friendly ID (SystemID) for your embedded system.</p>
 <ul>
 <li>TimeStamp</li>
 <li>SSID</li>
