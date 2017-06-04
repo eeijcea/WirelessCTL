@@ -4,13 +4,22 @@ Flash Size: 4M (3M SPIFFS)
 Serial Speed: 115200
 
 
-<h2>Services Implemented:</h2>     
+<h2>CLI Services Implemented:</h2>     
 Accesible via Serial NodeMCU (usb) from Arduino IDE
 SHOW_DEVICEID:          //  SHOW DEVICEID<br>
 SHOW_HISTORY:           //  SHOW REQUESTS HISTORY<br>
 SHOW_CREDENTIALS:       //  SHOW WIFI CREDENTIALS (IF SET)<br>
 RESET_HISTORY:          //  PERFORMS A HISTORY RESET <br>
 SET_RESET:WIFI:         //  PERFORMS A CREDENTIALS FILE RESET<br>
+
+<h2>HTTP Services Implemented:</h2>
+
+  /SaveCredentials"       <br>
+  /GetLightState"         <br>
+  /SetLightsOn"           <br>
+  /SetLightsOff"          <br>
+  /getNetworksKnownByDev" <br>
+
 
 <h2>TODO:</h2>
 SHOW_NETS:              //  SHOW WIFI NETS AVAILABLE<br>
