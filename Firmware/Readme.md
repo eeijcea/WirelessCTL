@@ -39,6 +39,8 @@ The following HTTP services are implemented:
 </ul>
 
 <pre>
+In this example TimeStamp = 23/11/2016 15:42
+
 var data = "TimeStamp=23%2F11%2F2016%2015%3A42&SSID=mySSID&Passwd=myPasswd&SystemID=mySystemID";
 
 var xhr = new XMLHttpRequest();
