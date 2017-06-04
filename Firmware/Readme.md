@@ -32,7 +32,7 @@ The following HTTP services are implemented: <br>
 <h3>XMLHTTPRequest (JavaScript) Code Samples:</h3><br>
 
 <b>/SaveCredentials</b><br>
-<p>This service allows you to save to NodeMCU your Wifi Credentials (SSID and Password), it also allows us you to save a friendly ID (SystemID) for your embedded system.</p>
+<p>This service allows you to save to NodeMCU your Wifi Credentials (SSID and Password), it also allows us you to save a friendly ID (SystemID) for your embedded system.</p><p>Input Parameters:</p>
 <ul>
 <li>TimeStamp</li>
 <li>SSID</li>
@@ -61,6 +61,8 @@ xhr.send(data);
 </pre>
 
 <b>/GetLightState</b><br>
+<p>This service allows you to retrieve current NodeMCU output pin status (the one used for set On/Off). Be aware that currently firmware is memoryless, this basically means even if last command submitted was Power ON if a reset happens in the middle system will not reflect this.</p>
+<p>Input Parameters:</p>
 <ul>
 <li>TimeStamp</li>
 <li>Command=GetLightState</li>
