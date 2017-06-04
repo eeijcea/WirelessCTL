@@ -20,7 +20,7 @@ SET_CREDENTIALS:        //  SET WIFI CREDENTIALS <br>
 
 <h2>HTTP Services Implemented:</h2>
 
-The following HTTP services are implemented: 
+The following HTTP services are implemented: <br>
   /SaveCredentials"       <br>
   /GetLightState"         <br>
   /SetLightsOn"           <br>
