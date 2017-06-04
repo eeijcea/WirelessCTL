@@ -28,7 +28,7 @@ The following HTTP services are implemented:
   /getNetworksKnownByDev" <br>
 
 
-<h3>XMLHTTPRequest (JavaScript) Example:</h3><br>
+<h3>XMLHTTPRequest (JavaScript) Code Samples:</h3><br>
 
 /SaveCredentials<br>
 <ul>
