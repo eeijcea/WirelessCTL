@@ -6,16 +6,19 @@ Serial Speed: 115200
 
 <h2>CLI Services Implemented:</h2>     
 Accesible via Serial NodeMCU (usb) from Arduino IDE<br>
-SHOW_DEVICEID:          //  SHOW DEVICEID<br>
-SHOW_HISTORY:           //  SHOW REQUESTS HISTORY<br>
-SHOW_CREDENTIALS:       //  SHOW WIFI CREDENTIALS (IF SET)<br>
-RESET_HISTORY:          //  PERFORMS A HISTORY RESET <br>
-SET_RESET:WIFI:         //  PERFORMS A CREDENTIALS FILE RESET<br>
+<ul>
+<li>SHOW_DEVICEID:          //  SHOW DEVICEID</li>
+<li>SHOW_HISTORY:           //  SHOW REQUESTS HISTORY</li>
+<li>SHOW_CREDENTIALS:       //  SHOW WIFI CREDENTIALS (IF SET)</li>
+<li>RESET_HISTORY:          //  PERFORMS A HISTORY RESET</li>
+<li>SET_RESET:WIFI:         //  PERFORMS A CREDENTIALS FILE RESET</li>
+</ul>
 
 <h2>TODO:</h2>
-SHOW_NETS:              //  SHOW WIFI NETS AVAILABLE<br>
-SET_CREDENTIALS:        //  SET WIFI CREDENTIALS <br>
-
+<ul>
+<li>SHOW_NETS:              //  SHOW WIFI NETS AVAILABLE</li>
+<li>SET_CREDENTIALS:        //  SET WIFI CREDENTIALS</li>
+</ul>
 
 
 <h2>HTTP Services Implemented:</h2>
