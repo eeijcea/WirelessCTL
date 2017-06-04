@@ -1,7 +1,5 @@
-<h2>NodeMCU 1.0 ESP-12E </h2>
-Binary compiled for a: <br>CPU Frequency: 80 MHz
-Flash Size: 4M (3M SPIFFS)
-Serial Speed: 115200
+<h2>Binary compiled for a: </h2>
+<br>NodeMCU 1.0 ESP-12E | CPU Frequency: 80 MHz | Flash Size: 4M (3M SPIFFS) |Serial Speed: 115200
 
 
 <h2>CLI Services Implemented:</h2>     
