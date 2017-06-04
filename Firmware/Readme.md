@@ -31,7 +31,7 @@ The following HTTP services are implemented: <br>
 
 <h3>XMLHTTPRequest (JavaScript) Code Samples:</h3><br>
 
-<h2><b>/SaveCredentials</b></h2>
+<h3><b>/SaveCredentials</b></h3>
 <p>This service allows you to save to NodeMCU your Wifi Credentials (SSID and Password), it also allows us you to save a friendly ID (SystemID) for your embedded system.</p><p>Input Parameters:</p>
 <ul>
 <li>TimeStamp</li>
@@ -40,24 +40,24 @@ The following HTTP services are implemented: <br>
 <li>SystemID</li>
 </ul>
 
+
+>In this example TimeStamp = 23/11/2016 15:42
 >
-In this example TimeStamp = 23/11/2016 15:42
-
-var data = "TimeStamp=23%2F11%2F2016%2015%3A42&SSID=mySSID&Passwd=myPasswd&SystemID=mySystemID";
-
-var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
-
-xhr.addEventListener("readystatechange", function () {
-  if (this.readyState === this.DONE) {
-    console.log(this.responseText);
-  }
-});
-
-xhr.open("GET", "http://192.168.1.18/SaveCredentials?SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017");
-xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
-
-xhr.send(data);
+>var data = "TimeStamp=23%2F11%2F2016%2015%3A42&SSID=mySSID&Passwd=myPasswd&SystemID=mySystemID";
+>
+>var xhr = new XMLHttpRequest();
+>xhr.withCredentials = true;
+>
+>xhr.addEventListener("readystatechange", function () {
+>  if (this.readyState === this.DONE) {
+>    console.log(this.responseText);
+>  }
+>});
+>
+>xhr.open("GET", "http://192.168.1.18/SaveCredentials?>SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017");
+>xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
+>
+>xhr.send(data);
 
 
 <b>/GetLightState</b><br>
