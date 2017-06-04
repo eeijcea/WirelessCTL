@@ -40,25 +40,22 @@ The following HTTP services are implemented: <br>
 <li>SystemID</li>
 </ul>
 
+<pre>
+In this example TimeStamp = 23/11/2016 15:42
 
->In this example TimeStamp = 23/11/2016 15:42
->
->var data = "TimeStamp=23%2F11%2F2016%2015%3A42&SSID=mySSID&Passwd=myPasswd&SystemID=mySystemID";
->
->var xhr = new XMLHttpRequest();
->xhr.withCredentials = true;
->
->xhr.addEventListener("readystatechange", function () {
->  if (this.readyState === this.DONE) {
->    console.log(this.responseText);
->  }
->});
->
->xhr.open("GET", "http://192.168.1.18/SaveCredentials?>SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017");
->xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
->
->xhr.send(data);
+var data = "TimeStamp=23%2F11%2F2016%2015%3A42&SSID=mySSID&Passwd=myPasswd&SystemID=mySystemID";
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === this.DONE) {
+    console.log(this.responseText);
+  }
+});
 
+xhr.open("GET", "http://192.168.1.18/SaveCredentials?SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017");
+xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
+xhr.send(data);
+</pre>
 
 <b>/GetLightState</b><br>
 <p>This service allows you to retrieve current NodeMCU output pin status (the one used for set On/Off). Be aware that currently firmware is memoryless, this basically means even if last command submitted was Power ON if a reset happens in the middle system will not reflect this.</p>
