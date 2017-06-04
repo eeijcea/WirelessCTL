@@ -12,6 +12,12 @@ SHOW_CREDENTIALS:       //  SHOW WIFI CREDENTIALS (IF SET)<br>
 RESET_HISTORY:          //  PERFORMS A HISTORY RESET <br>
 SET_RESET:WIFI:         //  PERFORMS A CREDENTIALS FILE RESET<br>
 
+<h2>TODO:</h2>
+SHOW_NETS:              //  SHOW WIFI NETS AVAILABLE<br>
+SET_CREDENTIALS:        //  SET WIFI CREDENTIALS <br>
+
+
+
 <h2>HTTP Services Implemented:</h2>
 
 The following HTTP services are implemented: 
@@ -22,8 +28,9 @@ The following HTTP services are implemented:
   /getNetworksKnownByDev" <br>
 
 
-<h3>/SaveCredentials:</h3>
-XMLHTTPRequest (JavaScript) Example:<br>
+<h3>XMLHTTPRequest (JavaScript) Example:</h3><br>
+
+/SaveCredentials<br>
 <ul>
 <li>TimeStamp</li>
 <li>SSID</li>
@@ -31,7 +38,8 @@ XMLHTTPRequest (JavaScript) Example:<br>
 <li>SystemID</li>
 </ul>
 
-var data = "TimeStamp=23%2F11%2F2016%2015%3A42&SSID=GUZMAN&Passwd=5433358510&SystemID=eGarden-01";
+<pre>
+var data = "TimeStamp=23%2F11%2F2016%2015%3A42&SSID=mySSID&Passwd=myPasswd&SystemID=mySystemID";
 
 var xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
@@ -42,13 +50,10 @@ xhr.addEventListener("readystatechange", function () {
   }
 });
 
-xhr.open("GET", "http://192.168.1.18/SaveCredentials?SystemID=eGarden-01&Passwd=5433358510&SSID=GUZMAN&TimeStamp=22%2F01%2F2017");
+xhr.open("GET", "http://192.168.1.18/SaveCredentials?SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017");
 xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
 
-
 xhr.send(data);
+</pre>
 
-<h2>TODO:</h2>
-SHOW_NETS:              //  SHOW WIFI NETS AVAILABLE<br>
-SET_CREDENTIALS:        //  SET WIFI CREDENTIALS <br>
 
