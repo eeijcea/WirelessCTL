@@ -6,7 +6,7 @@
 Accesible via Serial NodeMCU (usb) from Arduino IDE<br>
 <ul>
 <li>SHOW_DEVICEID:          //  SHOW DEVICEID</li>
-<li>[SHOW_HISTORY:](https://github.com/eeijcea/WirelessCTL/blob/master/Firmware/SHOW_HISTORY.png)           //  SHOW REQUESTS HISTORY</li>
+<li>SHOW_HISTORY:           //  <a href="https://github.com/eeijcea/WirelessCTL/blob/master/Firmware/SHOW_HISTORY.png">SHOW REQUESTS HISTORY</a></li> 
 <li>SHOW_CREDENTIALS:       //  SHOW WIFI CREDENTIALS (IF SET)</li>
 <li>RESET_HISTORY:          //  PERFORMS A HISTORY RESET</li>
 <li>SET_RESET:WIFI:         //  PERFORMS A CREDENTIALS FILE RESET</li>
