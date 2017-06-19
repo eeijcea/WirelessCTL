@@ -1,6 +1,6 @@
 <h1> # WirelessCTL</h1>
 
-NodeMCU based On/Off Generic Wireles Controller.
+NodeMCU based On/Off Generic Wireless Controller.
 
 -FirmWare Folder (NodeMCU binary) <br>
 -Circuit_Diagram (Circuit Diagram) <br>
