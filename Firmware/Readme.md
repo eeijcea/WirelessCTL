@@ -1,7 +1,7 @@
 <h2>Binary compiled for a: </h2>
 <br>NodeMCU 1.0 ESP-12E || CPU Frequency: 80 MHz || Flash Size: 4M (3M SPIFFS)||Serial Speed: 115200
 
-<h2>Upload Tool </h2>
+<h2>Recommended Tool for binary Upload:</h2>
 <a href="https://github.com/nodemcu/nodemcu-flasher">NodeMCU Flasher</a>
 
 <h2>CLI Services Implemented:</h2>     
