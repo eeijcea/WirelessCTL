@@ -23,7 +23,8 @@ http://192.168.4.1/SaveCredentials?SystemID=mySystemID&Passwd=myPasswd&SSID=mySS
 
 
 
-<h2>Tool for Upload firmware to your NodeMCU:</h2>
+<h2>How to upload firmware to my NodeMCU</h2>
+Download/Install the NodeMCU flasher and follow the instructions<br>
 <a href="https://github.com/nodemcu/nodemcu-flasher">NodeMCU Flasher</a>
 
 
