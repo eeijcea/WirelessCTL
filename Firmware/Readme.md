@@ -4,6 +4,11 @@
 <h2>Recommended Tool for binary Upload:</h2>
 <a href="https://github.com/nodemcu/nodemcu-flasher">NodeMCU Flasher</a>
 
+The Firmware provided implements some command line interface (CLI) services as well as Web Services (See below).
+
+It is capable to expose a Wifi where you can connect or attach itself to your Local Wifi Network.
+
+
 <h2>CLI Services Implemented:</h2>     
 Accesible via Serial NodeMCU (usb) from Arduino IDE<br>
 <ul>
