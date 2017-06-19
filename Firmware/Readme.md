@@ -9,17 +9,17 @@ PASSWD: hotIcon123<br>
 
 <b>When attached to your Wifi Network</b><br>
 Use your own credentials.<br>
-<pre>
-However for SET the Credentials of your Home Wifi the very first time you will need:<br>
+
+However, to set the Credentials of your Home Wifi the very first time you will need:<br>
 1) Attach in Local Wifi Mode (Above)<br>
 2) Using an Internet Browser invoke the SaveCredentials Web Service as described below in 
 SaveCredentials section.<br>
 
 Hint: 192.168.4.1 is the Default NodeMCU Ip Address when running in Local Wifi Mode<br>
 
-http://192.168.4.1/SaveCredentials?SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017
+http://192.168.4.1/SaveCredentials?SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017<br>
 
-</pre>
+
 
 
 <h2>Tool for Upload firmware to your NodeMCU:</h2>
