@@ -3,17 +3,17 @@
 
 The Firmware provided implements some command line interface (CLI) services as well as Web Services (See below). It is capable to expose a Wifi where you can connect for consume WebServices or you can attach it to your Home Wifi Network<br>
 
-<b>When in Local Wifi Mode</b>
-SSID: WirelessCTL
-PASSWD: hotIcon123
+<b>When in Local Wifi Mode</b><br>
+SSID: WirelessCTL<br>
+PASSWD: hotIcon123<br>
 
-<b>When attached to your Wifi Network</b>
-Use your own credentials.
-However for Set your Credentials the very first time you will need:
-1) Attach in Local Wifi Mode (Above)
-2) Using an Internet Browser invoke the SaveCredentials Web Service as described below in SaveCredentials section.
+<b>When attached to your Wifi Network</b><br>
+Use your own credentials.<br>
+However for Set your Credentials the very first time you will need:<br>
+1) Attach in Local Wifi Mode (Above)<br>
+2) Using an Internet Browser invoke the SaveCredentials Web Service as described below in SaveCredentials section.<br>
 
-Hint: 192.168.4.1 is the Default NodeMCU Ip Address when running in Local Wifi Mode
+Hint: 192.168.4.1 is the Default NodeMCU Ip Address when running in Local Wifi Mode<br>
 
 
 <h2>Tool for Upload firmware to your NodeMCU:</h2>
