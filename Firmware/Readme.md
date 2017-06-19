@@ -17,7 +17,7 @@ SaveCredentials section.<br>
 
 Hint: 192.168.4.1 is the Default NodeMCU Ip Address when running in Local Wifi Mode<br>
 
-http://192.168.4.1/SaveCredentials?SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017");
+http://192.168.4.1/SaveCredentials?SystemID=mySystemID&Passwd=myPasswd&SSID=mySSID&TimeStamp=22%2F01%2F2017
 
 </pre>
 
