@@ -1,12 +1,13 @@
 <h2>Binary compiled for a: </h2>
 <br>NodeMCU 1.0 ESP-12E || CPU Frequency: 80 MHz || Flash Size: 4M (3M SPIFFS)||Serial Speed: 115200
 
-<h2>Recommended Tool for binary Upload:</h2>
-<a href="https://github.com/nodemcu/nodemcu-flasher">NodeMCU Flasher</a>
-
 The Firmware provided implements some command line interface (CLI) services as well as Web Services (See below).
 
 It is capable to expose a Wifi where you can connect or attach itself to your Local Wifi Network.
+
+
+<h2>Recommended Tool for binary Upload:</h2>
+<a href="https://github.com/nodemcu/nodemcu-flasher">NodeMCU Flasher</a>
 
 
 <h2>CLI Services Implemented:</h2>     
