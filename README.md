@@ -7,4 +7,4 @@ NodeMCU based On/Off Generic Wireless Controller.
 -Mobile Application (Source and binaries for Mobile Application) <br>
 
 
-https://github.com/eeijcea/WirelessCTL/blob/master/Off:On%20Wireless%20Controller%20Arch.001.jpeg
+![ScreenShot] (https://github.com/eeijcea/WirelessCTL/blob/master/Off:On%20Wireless%20Controller%20Arch.001.jpeg)
