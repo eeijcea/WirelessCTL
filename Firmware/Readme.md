@@ -28,6 +28,7 @@ Download/Install the NodeMCU flasher and follow the instructions<br>
 <a href="https://github.com/nodemcu/nodemcu-flasher">NodeMCU Flasher</a>
 
 
+<<<<<<< Updated upstream
 <h2>CLI Services Implemented:</h2>     
 Accesible via Serial NodeMCU (usb) from Arduino IDE<br>
 <ul>
@@ -108,3 +109,17 @@ xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
 xhr.send(data);
 </pre>
 
+=======
+<h2>Services Implemented:</h2>     
+Accesible via Serial NodeMCU (usb) from Arduino IDE
+SHOW_DEVICEID:          //  SHOW DEVICEID<br>
+SHOW_HISTORY:           //  SHOW REQUESTS HISTORY<br>
+SHOW_CREDENTIALS:       //  SHOW WIFI CREDENTIALS (IF SET)<br>
+RESET_HISTORY:          //  PERFORMS A HISTORY RESET <br>
+SET_RESET:WIFI:         //  PERFORMS A CREDENTIALS FILE RESET<br>
+<br>
+
+<h2>TODO:</h2>
+SHOW_NETS:              //  SHOW WIFI NETS AVAILABLE<br>
+SET_CREDENTIALS:        //  SET WIFI CREDENTIALS <br>
+>>>>>>> Stashed changes
