@@ -7,4 +7,4 @@ NodeMCU based On/Off Generic Wireless Controller.
 -Mobile Application (Source and binaries for Mobile Application) <br>
 
 
-![alt text] (screenshots/Off-On_Wireless_Controller_Arch.jpeg "High Level architecture")
+![alt text](screenshots/Off-On_Wireless_Controller_Arch.jpeg "High Level architecture")
